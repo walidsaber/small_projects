@@ -8,13 +8,14 @@ def strsstr(haystack, needle):
         e = x
         for i in range(len(needle)):
             #idk what m doing here but it's working :D
-            if haystack[e] == needle[i]:
-                e += 1
-            else: 
-                break
-            if i == len(needle)-1:
-                list += [str(x)]
-                count += 1
+            if e < len(haystack):
+                if haystack[e] == needle[i]:
+                    e += 1
+                else: 
+                    break
+                if i == len(needle)-1:
+                    list += [str(x)]
+                    count += 1
     if count == 0:
         return -1
     #can't i just use find function and get done with it :d
@@ -23,7 +24,4 @@ def strsstr(haystack, needle):
     return "number of times found = " + str(count) + "\n"
 
 
-print(strsstr("waerdezewasdwaldzewalwa", "wa"))
-print(strsstr("CDCDCDCDSD", "CDC"))
-print(strsstr("catincutinsidecat", "cat"))
-print(strsstr("catincutinsidecat", "dog"))
+print(strsstr("ABCDCDC", "CDC"))
