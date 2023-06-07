@@ -1,6 +1,7 @@
 # commands :
+`#RRGGBB`
 ```
-1-insert `rgb(R,G,B)` i 'e': Insert integer 'e' at position 'i'.
+1-insert `#RRGGBB` i 'e': Insert integer 'e' at position 'i'.
 2-print: Print the list.
 3-remove e: Delete the first occurrence of integer .
 4-append e: Insert integer  at the end of the list.
