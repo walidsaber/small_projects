@@ -1,44 +1,41 @@
-commands :
-
-1-insert i e: Insert integer  at position .
+# commands :
+```
+1-insert i e: Insert integer "e" at position "i".
 2-print: Print the list.
-3-remove e: Delete the first occurrence of integer .
-4-append e: Insert integer  at the end of the list.
+3-remove e: Delete the first occurrence of integer "e" .
+4-append e: Insert integer "e" at the end of the list.
 5-sort: Sort the list.
 6-pop: Pop the last element from the list.
 7-reverse: Reverse the list.
-
-Input Format:
+```
+# Input Format:
 
 The first line contains an integer, , denoting the number of commands.
 Each line  of the  subsequent lines contains one of the commands described above.
 
-Constraints:
+# Constraints:
 
 The elements added to the list must be integers.
 
-Output Format:
-
-For each command of type print, print the list on a new line.
-
--Sample Input :
-
-12
-insert 0 5
-insert 1 10
-insert 0 6
-print
-remove 6
-append 9
-append 1
-sort
-print
-pop
-reverse
-print
-
--Sample Output :
-
+# -Sample Input :
+```
+Enter the number of commands you'll be passing : 12
+enter a command : insert 0 5
+enter a command : insert 1 10
+enter a command : insert 0 6
+enter a command : print
+enter a command : remove 6
+enter a command : append 9
+enter a command : append 1
+enter a command : sort
+enter a command : print
+enter a command : pop
+enter a command : reverse
+enter a command : print
+```
+# -Sample Output :
+```
 [6, 5, 10]
 [1, 5, 9, 10]
 [9, 5, 1]
+```
