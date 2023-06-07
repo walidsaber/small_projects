@@ -19,19 +19,19 @@ The elements added to the list must be integers.
 
 # -Sample Input :
 ```
-12
-insert 0 5
-insert 1 10
-insert 0 6
-print
-remove 6
-append 9
-append 1
-sort
-print
-pop
-reverse
-print
+Enter the number of commands you'll be passing : 12
+enter a command : insert 0 5
+enter a command : insert 1 10
+enter a command : insert 0 6
+enter a command : print
+enter a command : remove 6
+enter a command : append 9
+enter a command : append 1
+enter a command : sort
+enter a command : print
+enter a command : pop
+enter a command : reverse
+enter a command : print
 ```
 # -Sample Output :
 ```
