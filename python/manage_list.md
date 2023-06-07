@@ -17,10 +17,6 @@ Each line  of the  subsequent lines contains one of the commands described above
 
 The elements added to the list must be integers.
 
-# Output Format:
-
-For each command of type print, print the list on a new line.
-
 # -Sample Input :
 ```
 12
